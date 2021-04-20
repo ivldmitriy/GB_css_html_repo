@@ -8,7 +8,7 @@ html {
 }
 
 .container {
-   width: 1140px;
+   max-width: 1140px;
    margin: 0 auto;
 }
 
@@ -19,7 +19,7 @@ html {
 }
 
 .top {
-   height: 768px;
+   min-height: 768px;
    background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
 }
 
@@ -29,6 +29,7 @@ html {
    background-image: url(pics/top_back.png);
    background-repeat: no-repeat;
    background-position: right center;
+   background-size: 44%;
 }
 
 .header {
@@ -298,3 +299,53 @@ html {
    color: #FFFFFF;
    text-transform: uppercase;
 }
+
+@media (max-width: 1024px) {
+   .container {
+      padding-left: 32px;
+      padding-right: 32px;
+   }
+
+   .top-info {
+      background-position: right 280px;
+   }
+}
+
+@media (max-width: 667px) {
+   .top {
+      min-height: 376px;
+      padding-bottom: 41px;
+      box-sizing: border-box;
+   }
+   
+   .header {
+      padding-top: 24px;
+   }
+   
+   .top-info {
+      padding-top: 36px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-image: none;
+   }
+
+   .top-heading {
+      width: 100%;
+      font-size: 32px;
+      line-height: 37px;
+      margin-bottom: 12px;
+      text-align: center;
+   }
+   
+   .text-header {
+      width: 100%;
+      text-align: center;
+   }
+
+   .top_button {
+      font-size: 12px;
+      line-height: 26px;
+      padding: 0 8px;
+   }
+}  
