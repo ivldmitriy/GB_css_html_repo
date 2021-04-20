@@ -302,204 +302,202 @@ html {
 
 @media (max-width: 1024px) {
    .container {
-       padding-left: 32px;
-       padding-right: 32px;
-    } 
+      padding-left: 32px;
+      padding-right: 32px;
+   }
 
    .top-info {
-       background-position: right 280px;
-    }
+      background-position: right 280px;
+   }
     
-    .product-list {
-        flex-direction: column;
-        align-items: center;
-    }
+   .product-list {
+      flex-direction: column;
+      align-items: center;
+   }
 
-    .product-card {
-        margin-bottom: 32px;
-    }
+   .product-card {
+      margin-bottom: 32px;
+   }
 
-    .footer {
-        padding-right: 120px;
-    }
+   .footer {
+      padding-right: 120px;
+   }
 
-    .footer__top_container {
-        padding-right: 0;
-    }
+   .footer__top_container {
+      padding-right: 0;
+   }
 
-    .footer__info {
-        flex-direction: column;
-        align-items: center;
-    }
+   .footer__info {
+      flex-direction: column;
+      align-items: center;
+   }
 
-    .footer__info_element {
-        margin-bottom: 25px;
-        margin-right: auto;
-        padding-left: 37px;
-        align-self: left;
-    }
+   .footer__info_element {
+      margin-bottom: 25px;
+      margin-right: auto;
+      padding-left: 37px;
+      align-self: left;
+   }
     
-    .footer_button {
-        padding: 5px 20px 5px 20px;
-        margin-top: 74px;;
-        display: inline-block;
-    }
+   .footer_button {
+      padding: 5px 20px 5px 20px;
+      margin-top: 74px;;
+      display: inline-block;
+   }
 }
 
 @media (max-width: 667px) {
    .top {
-       height: auto;
-       min-height: 376px;
-       padding-bottom: 41px;
-       box-sizing: border-box;
-    }
+      height: auto;
+      min-height: 376px;
+      padding-bottom: 41px;
+      box-sizing: border-box;
+   }
    
    .header {
-       padding-top: 24px;
-    }
+      padding-top: 24px;
+   }
    
    .top-info {
-       padding-top: 36px;
-       display: flex;
-       flex-direction: column;
-       align-items: center;
-       background-image: none;
-    }
+      padding-top: 36px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-image: none;
+   }
 
    .top-heading {
-       width: 100%;
-       font-size: 32px;
-       line-height: 37px;
-       margin-bottom: 12px;
-       text-align: center;
-    }
+      width: 100%;
+      font-size: 32px;
+      line-height: 37px;
+      margin-bottom: 12px;
+      text-align: center;
+   }
    
    .text-header {
-       width: 100%;
-       text-align: center;
-    }
+      width: 100%;
+      text-align: center;
+   }
 
    .top_button {
-       font-size: 12px;
-       line-height: 26px;
-       padding: 0 8px;
-    }
+      font-size: 12px;
+      line-height: 26px;
+      padding: 0 8px;
+   }
     
-    .heading {
-        font-size: 24px;
-        line-height: 28px;
-    }
+   .heading {
+      font-size: 24px;
+      line-height: 28px;
+   }
     
-    .what-we-do {
-        padding-top: 48px;
-    }
+   .what-we-do {
+      padding-top: 48px;
+   }
 
-    .product-list {
-        padding-top: 32px;
-    }
+   .product-list {
+      padding-top: 32px;
+   }
 
-    .product-card {
-        width: 100%;
-    }
+   .product-card {
+      width: 100%;
+   }
 
-    .text_project {
-        width: 100%;
-    }
+   .text_project {
+      width: 100%;
+   }
 
-    .project__text {
-        font-size: 16px;
-        line-height: 19px;
-        top: 16px;
-        right: 16px;
-    }
+   .project__text {
+      font-size: 16px;
+      line-height: 19px;
+      top: 16px;
+      right: 16px;
+   }
 
-    .project__text_margin {
-        left: 16px;
-    }
+   .project__text_margin {
+      left: 16px;
+   }
 
-    .project__text_margin {
-        margin-right: 0;
-    }
+   .project__text_margin {
+      margin-right: 0;
+   }
 
-    .project__parent {
-        flex-direction: column;
-        margin-top: 16px;
-    }
+   .project__parent {
+      flex-direction: column;
+      margin-top: 16px;
+   }
 
-    .project__item_margin {
-        margin-right: 0;
-        margin-bottom: 16px;
-    }
+   .project__item_margin {
+      margin-right: 0;
+      margin-bottom: 16px;
+   }
     
-    .projects-box {
-        margin-bottom: auto;
-    }
+   .projects-box {
+      margin-bottom: auto;
+   }
 
-    .footer {
-        margin-top: 64px;
-        padding: 0;
-    }
+   .footer {
+      margin-top: 64px;
+      padding: 0;
+   }
 
-    .footer__top {
-        padding-top: 18px;
-        padding-bottom: 40px;
-        flex-direction: column;
-        align-items: center;
-    }
+   .footer__top {
+      padding-top: 18px;
+      padding-bottom: 40px;
+      flex-direction: column;
+      align-items: center;
+   }
 
-    .footer__top_container {
-        padding: 0;
-        margin: 0 auto;
-    }
+   .footer__top_container {
+      padding: 0;
+      margin: 0 auto;
+   }
 
-    .footer__content {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+   .footer__content {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+   }
 
-    .footer-top-heading {
-        font-size: 24px;
-        line-height: 28px;
-        text-align: center;
-    }
+   .footer-top-heading {
+      font-size: 24px;
+      line-height: 28px;
+      text-align: center;
+   }
 
-    .footer_button {
-        margin-top: 40px;
-    }
+   .footer_button {
+      margin-top: 40px;
+   }
 
-    .footer__text {
-        margin-bottom: auto;
-        text-align: center;
-    }
+   .footer__text {
+      margin-bottom: auto;
+      text-align: center;
+   }
 
-    .footer__bottom {
-        padding-top: 32px
-    }
+   .footer__bottom {
+      padding-top: 32px
+   }
 
-    .footer__info {
-        margin-bottom: 37px;
-    }
+   .footer__info {
+      margin-bottom: 37px;
+   }
 
-    .footer__info *:last-child {
-        margin-bottom: 0;
-    }
+   .footer__info *:last-child {
+      margin-bottom: 0;
+   }
 
-    .footer__info_element {
-        margin-bottom: 18px;
-        margin-right: auto;
-        padding-left: 37px;
-        align-self: left;
-    }
+   .footer__info_element {
+      margin-bottom: 18px;
+      margin-right: auto;
+      padding-left: 37px;
+      align-self: left;
+   }
 
-    .footer__copy {
-        padding-bottom: 32px;
-    }
+   .footer__copy {
+      padding-bottom: 32px;
+   }
 
-    .copy__text {
-        text-align: center;
-    }
-
-
+   .copy__text {
+      text-align: center;
+   }
 }  
