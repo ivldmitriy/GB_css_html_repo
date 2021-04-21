@@ -29,7 +29,7 @@ html {
    background-image: url(pics/top_back.png);
    background-repeat: no-repeat;
    background-position: right center;
-   background-size: 44%;
+   background-size: 41%;
 }
 
 .header {
@@ -231,7 +231,7 @@ html {
    margin-left: 19px;
    margin-right: 32px;
    flex-grow: 1;
-   flex-basis: 33,3%;
+   flex-basis: 33%;
 }
 
 .footer-top-heading {
@@ -336,7 +336,6 @@ html {
       margin-bottom: 25px;
       margin-right: auto;
       padding-left: 37px;
-      align-self: left;
    }
     
    .footer_button {
@@ -491,7 +490,6 @@ html {
       margin-bottom: 18px;
       margin-right: auto;
       padding-left: 37px;
-      align-self: left;
    }
 
    .footer__copy {
